@@ -4,6 +4,6 @@ Homestead.yaml
 Homestead.json
 .env
 .env.example
-/config/database.php 
 /config
+/config/database.php  
 /node_modules
