@@ -35,17 +35,9 @@
         <div class="container">
 
             <section class="row">
+                @section('content')
 
-                <div class="col-md-3 col-sm-3 leftbar" >
-                    @section('leftBar')
-
-                    @show
-                </div>
-                <div class="col-md-9 col-sm-9 rightbar">
-                    @section('content')
-
-                    @show
-                </div>
+                @show 
 
             </section>
 
