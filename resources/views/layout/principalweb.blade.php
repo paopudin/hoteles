@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>GAMA | @yield('title','Login')</title>
-        <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap.min.css') }}"> 
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('assets/css/principalweb.css') }}">
 
         @section('alternalCSS')
@@ -17,29 +17,29 @@
     </head>
     <body>
         <div class="container">
-        
-            <header  class="row"> 
-                <div class="col-md-12">
+
+            <header  class="row">
+                <div class="col-md-12 col-sm-12">
                     HEADER
 
-                </div> 
-            </header> 
+                </div>
+            </header>
 
             <section class="row">
-                
-                <div class="col-md-3 leftbar" >
+
+                <div class="col-md-3 col-sm-3 leftbar" >
                     @section('leftBar')
 
                     @show
                 </div>
-                <div class="col-md-9 rightbar">
+                <div class="col-md-9 col-sm-9 rightbar">
                     @section('content')
 
                     @show
                 </div>
 
             </section>
-            
+
         </div>
     </body>
 </html>
