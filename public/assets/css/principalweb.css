@@ -1,0 +1,16 @@
+header{
+
+	height: 200px;
+	background-color: blue;
+}
+
+.leftbar{
+	height: 100vh;
+	background-color: orange;
+}
+
+
+.rightbar{
+	height: 100vh;
+	background-color: black;
+}
