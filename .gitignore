@@ -2,8 +2,8 @@
 /node_modules
 Homestead.yaml
 Homestead.json
-.env
+.env 
 .env.example
 /config
 /config/database.php  
-/node_modules
+/node_modules 
