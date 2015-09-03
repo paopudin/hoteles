@@ -1,20 +1,52 @@
-header{
 
-	height: 200px;
-	background-color: blue;
-	text-align: center;
+@font-face {
+    
+    font-family: "OpenSanLight";
+    src: url(../fonts/OpenSans-Light.ttf) format("truetype");
 }
-header div
-{
+
+@font-face {
+    
+    font-family: "OpenSanLightItalic";
+    src: url(../fonts/OpenSans-LightItalic.ttf) format("truetype");
+}
+
+@font-face {
+    
+    font-family: "OpenSanRegular";
+    src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    
+    font-family: "OpenSanSemiBold";
+    src: url(../fonts/OpenSans-Semibold.ttf) format("truetype");
+}
+
+
+*{
+    font-family: 'OpenSanLight';
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: #A4A4A4 ;
+} 
+
+header{ 
+	height: 200px;
+	background-color: #ccc;
+	text-align: center; 
+} 
+
+header div{
 	margin:auto;
 }
 
 .leftbar{
 	height: 100vh;
-	background-color: orange;
+	background-color: #B96505;
 }
 
 .rightbar{
 	height: 100vh;
-	background-color: black;
+	background-color:white; 
+
 }

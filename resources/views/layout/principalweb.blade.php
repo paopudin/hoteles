@@ -16,21 +16,23 @@
         @show
     </head>
     <body>
-        <div class="container">
+     
 
-            <header  class="row">
-              <div class="col-md-12">
-                <h1 style="">header</h1>
-                <div class="input-group col-md-5">
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">
-                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                        </button>
-                    </span>
-                </div><!-- /input-group -->
-              </div>
-            </header>
+        <header>
+          <div class="row" style="margin:0px">
+            <h1>Holetes Venezuela</h1>
+            <div class="input-group col-md-5">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                </span>
+            </div><!-- /input-group -->
+          </div>
+        </header>
+
+        <div class="container">
 
             <section class="row">
 
