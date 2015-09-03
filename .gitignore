@@ -6,3 +6,4 @@ Homestead.json
 /config
 /config/database.php
 .env.example
+.gitignore

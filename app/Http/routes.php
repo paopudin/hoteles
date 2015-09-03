@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*
+ * Rutas del login
+ */
+require('Routes/Web/webRoutes.php');
+
