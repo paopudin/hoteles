@@ -19,10 +19,17 @@
         <div class="container">
 
             <header  class="row">
-                <div class="col-md-12 col-sm-12">
-                    HEADER
-
-                </div>
+              <div class="col-md-12">
+                <h1 style="">header</h1>
+                <div class="input-group col-md-5">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                    </span>
+                </div><!-- /input-group -->
+              </div>
             </header>
 
             <section class="row">
