@@ -1,24 +1,24 @@
 
 @font-face {
-    
+
     font-family: "OpenSanLight";
     src: url(../fonts/OpenSans-Light.ttf) format("truetype");
 }
 
 @font-face {
-    
+
     font-family: "OpenSanLightItalic";
     src: url(../fonts/OpenSans-LightItalic.ttf) format("truetype");
 }
 
 @font-face {
-    
+
     font-family: "OpenSanRegular";
     src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
 }
 
 @font-face {
-    
+
     font-family: "OpenSanSemiBold";
     src: url(../fonts/OpenSans-Semibold.ttf) format("truetype");
 }
@@ -27,14 +27,17 @@
 *{
     font-family: 'OpenSanLight';
     -webkit-font-smoothing: subpixel-antialiased;
-    color: #A4A4A4 ;
-} 
+    color: #615757 ;
+}
 
-header{ 
+body{
+  background-color: #E8E8E8;
+}
+
+header{
 	height: 200px;
-	background-color: #ccc;
-	text-align: center; 
-} 
+	text-align: center;
+}
 
 header div{
 	margin:auto;
@@ -47,6 +50,6 @@ header div{
 
 .rightbar{
 	height: 100vh;
-	background-color:white; 
+	background-color:white;
 
 }
