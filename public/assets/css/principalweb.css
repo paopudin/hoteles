@@ -31,7 +31,7 @@
 }
 
 body{
-  background-color: #E8E8E8;
+  background-color: #F5F5F5;
 }
 
 header{
@@ -45,7 +45,8 @@ header div{
 
 .leftbar{
 	height: 100vh;
-	background-color: #B96505;
+	background-color: white; 
+    border-right: 1px solid #E2E2E2;
 }
 
 .rightbar{
@@ -53,3 +54,4 @@ header div{
 	background-color:white;
 
 }
+ 
