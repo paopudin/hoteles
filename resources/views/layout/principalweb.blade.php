@@ -59,13 +59,13 @@
                 </div>
             </div>
             <div class="col-md-2">
-              <br>  
-              <div class="form-group has-feedback"> 
+              <br>
+              <div class="form-group has-feedback">
                   <input type="button" class="form-control" value="Habitacion" />
                   <i class="glyphicon glyphicon-bed form-control-feedback"></i>
               </div>
             </div>
-        </div> 
+        </div>
       </div>
     </header>
 
