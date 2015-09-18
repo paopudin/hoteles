@@ -15,16 +15,8 @@ class WebController extends Controller
        
     public function principal()
     {
-        $view = View::make('web/inicioweb'); 
-  
-
-		       $sections = $view->renderSections(); // returns an associative array of 'content', 'head' and 'footer'
-
-		      
-		    
-
-		    // just a regular request so return the whole view
-
-		    return $view;
+        $view = View::make('layout/principalinicioweb'); 
+    
+		return $view;
     }
 }
