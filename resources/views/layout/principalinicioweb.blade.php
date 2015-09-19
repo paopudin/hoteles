@@ -21,51 +21,61 @@
 <body>
     <header>
       <div class="container">
-      <div class="row">
-        <h1>Holetes Venezuela</h1>
-        <div class="input-group col-md-5">
-            <input type="text" class="form-control" placeholder="Search for...">
-            <span class="input-group-btn">
-                <button class="btn btn-default" type="button">
-                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                </button>
-            </span>
-        </div><!-- /input-group -->
-      </div>
-
-     <br/>
-      <!-- Calendarios (Botones de busqueda) -->
         <div class="row">
-            <div class="col-md-2 col-md-offset-3">
-                <div class="form-group">
-                  <span>   Entrada  <span class="glyphicon glyphicon-log-in"></span> </span>
-                  <div class='input-group date' id='datetimepicker6'>
-                      <input type='button' class="form-control" id="date1"/>
-                      <span class="input-group-addon">
-                          <span class="glyphicon glyphicon-calendar"></span>
-                      </span>
-                  </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="form-group">
-                  <span>  Salida <span class="glyphicon glyphicon-log-out"></span></span>
-                  <div class='input-group date' id='datetimepicker7'>
-                      <input type='button' class="form-control" id="date2"/>
-                      <span class="input-group-addon">
-                          <span class="glyphicon glyphicon-calendar"></span>
-                      </span>
-                  </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-              <br>
-              <div class="form-group has-feedback">
-                  <input type="button" class="form-control" value="Habitacion" />
-                  <i class="glyphicon glyphicon-bed form-control-feedback"></i>
-              </div>
-            </div>
+          <h1>Holetes Venezuela</h1>
+          <div class="input-group col-md-6" style="padding-left:15px; padding-right:15px;">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                  </button>
+              </span>
+          </div><!-- /input-group -->
         </div>
+
+       <br/>
+        <!-- Calendarios (Botones de busqueda) -->
+          <div class="row">
+              <div class="col-md-2 col-md-offset-3">
+                  <div class="form-group">
+                    <span>   Entrada  <span class="glyphicon glyphicon-log-in"></span> </span>
+                    <div class='input-group date' id='datetimepicker6'>
+                        <input type='button' class="form-control" id="date1"/>
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="form-group">
+                    <span>  Salida <span class="glyphicon glyphicon-log-out"></span></span>
+                    <div class='input-group date' id='datetimepicker7'>
+                        <input type='button' class="form-control" id="date2"/>
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-md-2 btn-group has-feedback dropMenu">
+                <br />
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    Habitación <span class="glyphicon glyphicon-bed form-control-feedback"></span>
+                  </button>
+
+                  <ul class="dropdown-menu" role="menu">
+                    <li> Individual <span class="glyphicon glyphicon-bed"></span> </li>
+                    <li class="divider"></li>
+                    <li> Doble <span class="glyphicon glyphicon-bed"></span></li>
+                    <li class="divider"></li>
+                    <li> Familiar <span class="glyphicon glyphicon-bed"></span></li>
+                    <li class="divider"></li>
+                    <li> Multiple <span class="glyphicon glyphicon-bed"></span> </li>
+                  </ul>
+              </div>
+          </div>
       </div>
     </header>
 

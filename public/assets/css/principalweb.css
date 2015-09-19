@@ -45,13 +45,31 @@ header div{
 
 .leftbar{
 	height: 100vh;
-	background-color: white; 
+	background-color: white;
     border-right: 1px solid #E2E2E2;
 }
 
 .rightbar{
 	height: 100vh;
 	background-color:white;
+}
+
+.dropMenu button{
+  width:100%;
+}
+
+.dropMenu ul{
+  text-align: center;
+  width:84%;
+  margin-left:15px;
+}
+
+.dropMenu li{
+  cursor: pointer;
+}
+
+.dropMenu span{
+  float:right;
+  margin-right: 15px;
 
 }
- 
